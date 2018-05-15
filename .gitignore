@@ -5,3 +5,4 @@ temp.md
 /vendor
 configs/database.php
 /Zero
+.php_cs.cache
