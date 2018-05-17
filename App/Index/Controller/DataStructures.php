@@ -45,7 +45,7 @@ class DataStructures extends Controller
         p($array);
     }
 
-    public function display_linkedlist()
+    public function linkedlist()
     {
         $BookTitles = Factory::getModel('LinkedList');
         $BookTitles-> insert("Introduction to Algorithm");
@@ -61,5 +61,14 @@ class DataStructures extends Controller
         $BookTitles-> reverse();
         p($BookTitles-> display());
         echo "2nd Item is: ". $BookTitles-> getNthNode(2)-> data;
+    }
+    public function circularlinkedlist()
+    {
+		$BookTitles = Factory::getModel('CircularLinkedList');
+		$BookTitles->insertAtEnd("Introduction to Algorithm");
+		$BookTitles->insertAtEnd("Introduction to PHP and Data structures");
+		$BookTitles->insertAtEnd("Programming Intelligence");
+		$BookTitles->insertAtEnd("Mediawiki Administrative tutorial guide");
+		p($BookTitles->display());
     }
 }
