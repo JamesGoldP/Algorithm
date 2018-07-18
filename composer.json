@@ -1,0 +1,29 @@
+{
+	"name": "nezumi/data-structures-and-algorithms",
+	"description": "Studying Data Structures and Algorithms codes",
+	"minimum-stability": "dev",
+	"type": "codes",
+	"keywords":[
+		"PHP",
+		"PHP 7 Data Structures and Algorithms"	
+	],
+	"require":{
+		"php": ">=5.4",
+		"nezumi/myerror": "dev-master",
+		"nezumi/mysmarty": "dev-master",
+		"nezumi/mysql": "dev-master"
+	},
+	"require-dev":{
+		"php": ">=5.4",
+		"nezumi/myerror": "dev-master",
+		"nezumi/mysmarty": "dev-master",
+		"nezumi/cache": "dev-master",
+		"nezumi/mysql": "dev-master"
+	},
+	"repositories": {
+	    "packagist": {
+	        "type": "composer",
+	        "url": "https://packagist.org"
+	    }
+	}
+}
